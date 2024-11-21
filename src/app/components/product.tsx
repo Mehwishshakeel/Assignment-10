@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function ProductCard() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 ">
       {/* Product 1 and 2 */}
       <div className="flex flex-col items-center">
         <div className="border border-black-900 py-10 px-12">
@@ -40,7 +40,7 @@ function ProductCard() {
       </div>
 
       {/* Product 3 */}
-      <div className="flex flex-col items-center md:col-span-2">
+      <div className="flex flex-col items-center ">
         <div className="border border-black-500 py-10 px-12">
           <Image
             src="/foundation.png"
